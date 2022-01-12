@@ -4,34 +4,23 @@ import { Link } from "react-router-dom";
 const Home = () => {
   return (
     <>
-      <h2 style={{ textAlign: "left" }}>Welcome to our N64 Store</h2>
-      <h4 style={{ textAlign: "left" }}>This train is inbound</h4>
-      <section style={{ textAlign: "justify" }}>
+      <section className="specs">
+        <h2>
+          Nintendo<sup>64</sup>
+        </h2>
         <p>
-          Good morning, and welcome to the Black Mesa transit system. This
-          automated train is provided for the security and convenience of the
-          Black Mesa Research Facility personnel. The time is 8:47 A.M. Current
-          topside temperature is 93 degrees with an estimated high of 105. The
-          Black Mesa compound is maintained at a pleasant 68 degrees at all
-          times. This train is inbound from level 3 dormitories to sector C test
-          labs and control facilities. If your intended destination is a high
-          security area beyond sector C, you will need to return to the central
-          transit hub in area 9 and board a high security train. If you have not
-          yet submitted your identity to the retinal clearance system, you must
-          report to Black Mesa personnel for processing before you will be
-          permitted into the high security branch of the transit system.
+          The Nintendo 64 is a home video game console developed by{" "}
+          <strong>Nintendo</strong>. The successor to the Super Nintendo
+          Entertainment System (SNES).
         </p>
-
         <p>
-          Due to the high toxicity of material routinely handled in the Black
-          Mesa compound, no smoking, eating, or drinking are permitted within
-          the Black Mesa transit system. Please keep your limbs inside the train
-          at all times. Do not attempt to open the doors until the train has
-          come to a complete halt at the station platform. In the event of an
-          emergency, passengers are to remain seated and await further
-          instruction. If it is necessary to exit the train, disabled personnel
-          should be evacuated first. Please, stay away from electrified rails
-          and proceed to an emergency station until assistance arrives.
+          It was released on June 23, 1996 in Japan, on September 29, 1996 in
+          North America, and March 1, 1997 in Europe and Australia. It was the
+          last major home console to use cartridges as its primary storage.
+        </p>
+        <p>
+          it competed primarily with the <strong>Sony PlayStation</strong> and
+          the <strong>Sega Saturn</strong>.
         </p>
       </section>
     </>

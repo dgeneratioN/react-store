@@ -328,3 +328,22 @@ nav > a {
 nav {
   margin-bottom: 10px;
 }
+.specs {
+  color: var(--clr-grey-5);
+  text-align: justify;
+}
+.specs h2 {
+  color: #222;
+}
+
+.specs > ul {
+  list-style-type: disc;
+  max-width: 80%;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  padding-inline-start: 5%;
+}
+.specs > ul > li > ul {
+  list-style-type: circle;
+  padding-inline-start: 5%;
+}

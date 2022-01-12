@@ -38,7 +38,7 @@ const Carrinho = ({ carrinho }) => {
 
   return (
     <>
-      <h2 style={{ textAlign: "left" }}>Carrinho</h2>
+      <h2>Carrinho</h2>
       {carrinho.length !== 0 && (
         <ListaCarrinho data={data} carrinho={carrinho} />
       )}
