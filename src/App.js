@@ -9,7 +9,7 @@ import Carrinho from "./Carrinho";
 function App() {
   const [carrinho, mudarCarrinho] = useState([]);
   const addItem = (item) => {
-    if (carrinho.includes(item["Game"])) return;
+    if (carrinho.filter((o) => o.Game === item.Game).length !== 0) return;
     mudarCarrinho(carrinho.concat(item));
   };
 
