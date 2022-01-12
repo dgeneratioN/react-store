@@ -75,7 +75,14 @@ const Endereco = ({ rua, bairro, cidade, estado }) => {
 };
 
 const ListaCarrinho = ({ carrinho }) => {
-  const [precoTotal, setPrecoTotal] = useState(0);
+  const [preco, setPreco] = useState(0);
+  useEffect(() => {
+    let meupreco = 0;
+    carrinho.forEach((o) => {
+      meupreco += o.Price;
+    });
+    setPreco(meupreco);
+  }, [carrinho]);
   return (
     <>
       {carrinho.map((o) => {
@@ -87,7 +94,7 @@ const ListaCarrinho = ({ carrinho }) => {
         );
       })}
       <h4 key="total" className="item">
-        Total<p>${precoTotal}</p>
+        Total<p>${preco.toFixed(2)}</p>
       </h4>
     </>
   );
