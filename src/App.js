@@ -1,6 +1,5 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import React, { useState } from "react";
-import { data } from "./data";
+import React, { useEffect, useState } from "react";
 import Home from "./Home";
 import Store from "./Store";
 import Navbar from "./Navbar";
@@ -11,9 +10,16 @@ import About from "./About";
 function App() {
   const [carrinho, mudarCarrinho] = useState([]);
   const addItem = (item) => {
-    if (carrinho.filter((o) => o.Game === item.Game).length !== 0) return;
-    mudarCarrinho(carrinho.concat(item));
+    if (carrinho.includes(item)) return;
+    let novocarrinho = [...carrinho, item];
+    localStorage.setItem("CARRINHO_LOCAL", JSON.stringify(novocarrinho));
+    mudarCarrinho(novocarrinho);
   };
+  useEffect(() => {
+    console.log("lendo: ", JSON.parse(localStorage.getItem("CARRINHO_LOCAL")));
+    if (localStorage.getItem("CARRINHO_LOCAL"))
+      mudarCarrinho(JSON.parse(localStorage.getItem("CARRINHO_LOCAL")));
+  }, []);
 
   return (
     <BrowserRouter>

@@ -13,10 +13,6 @@ const Details = ({ addToCart }) => {
     Genre: "Porn",
     Price: -69.99,
   });
-  const comprar = () => {
-    const { Game, Price } = g;
-    addToCart({ Game, Price });
-  };
   useEffect(() => {
     const mygame = data.find((o) => o.id === parseInt(id));
     if (mygame) {
@@ -24,7 +20,7 @@ const Details = ({ addToCart }) => {
       setimage("/assets/box-art/" + mygame.Game.replace(/:/g, " -") + ".png");
       setsnap("/assets/snaps/" + mygame.Game.replace(/:/g, " -") + ".png");
     }
-  }, []);
+  }, [id]);
   return (
     <article className="product-detailed">
       <span>
@@ -39,7 +35,7 @@ const Details = ({ addToCart }) => {
       <button
         className="btn"
         onClick={() => {
-          comprar();
+          addToCart(g.id);
         }}
       >
         Comprar

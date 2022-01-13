@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Navbar = ({ carrinho }) => {
   const [qtd, setqtd] = useState(0);
   useEffect(() => {
-    setqtd(carrinho.length);
+    setqtd(carrinho && carrinho.length);
   }, [carrinho]);
   return (
     <nav>

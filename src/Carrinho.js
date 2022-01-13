@@ -78,20 +78,24 @@ const ListaCarrinho = ({ carrinho }) => {
   const [preco, setPreco] = useState(0);
   useEffect(() => {
     let meupreco = 0;
-    carrinho.forEach((o) => {
-      meupreco += o.Price;
-    });
+    carrinho &&
+      carrinho.forEach((o) => {
+        meupreco += data.find((x) => x.id === parseInt(o)).Price;
+      });
     setPreco(meupreco);
   }, [carrinho]);
   return (
     <>
-      {carrinho.map((o) => {
-        return (
-          <h4 key={o.Game} className="item">
-            {o.Game}
-            <p>${o.Price}</p>
-          </h4>
-        );
+      {data.map((o) => {
+        if (carrinho.includes(o.id))
+          return (
+            <h4 key={o.id} className="item">
+              {o.Game}
+              <p>${o.Price}</p>
+              <button className="btn">❌</button>
+            </h4>
+          );
+        else return null;
       })}
       <h4 key="total" className="item">
         Total<p>${preco.toFixed(2)}</p>
