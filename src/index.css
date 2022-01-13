@@ -305,6 +305,19 @@ p {
   height: 15rem;
   object-fit: cover;
 }
+
+.product-detailed {
+  background: var(--clr-white);
+  border-radius: var(--radius);
+}
+.product-detailed img {
+  border-top-left-radius: var(--radius);
+  border-top-right-radius: var(--radius);
+
+  width: 50%;
+  height: 20rem;
+  object-fit: fill;
+}
 .product h4 {
   margin-top: 1rem;
 }

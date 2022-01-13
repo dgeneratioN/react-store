@@ -5,6 +5,7 @@ import Home from "./Home";
 import Store from "./Store";
 import Navbar from "./Navbar";
 import Carrinho from "./Carrinho";
+import Details from "./Details";
 
 function App() {
   const [carrinho, mudarCarrinho] = useState([]);
@@ -25,6 +26,10 @@ function App() {
             element={<Store data={data} addItem={addItem} />}
           />
           <Route path="/carto" element={<Carrinho carrinho={carrinho} />} />
+          <Route
+            path="/details/:id"
+            element={<Details addToCart={addItem} />}
+          ></Route>
         </Routes>
       </div>
     </BrowserRouter>

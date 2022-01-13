@@ -1,5 +1,6 @@
 export const data = [
   {
+    id: 1,
     Game: "Blast Corps",
     Price: 29.95,
     GameLink: null,
@@ -13,6 +14,7 @@ export const data = [
     Genre: "Action/Strategy",
   },
   {
+    id: 2,
     Game: "Castlevania",
     Price: 49.99,
     GameLink: null,
@@ -26,6 +28,7 @@ export const data = [
     Genre: "Action/Adventure",
   },
   {
+    id: 3,
     Game: "Goldeneye 007",
     Price: 49.99,
     GameLink: "https://en.wikipedia.org/wiki/GoldenEye_007_(1997_video_game)",
@@ -39,6 +42,7 @@ export const data = [
     Genre: "Action/First-Person Shooter",
   },
   {
+    id: 4,
     Game: "Doom 64",
     Price: 34.99,
     GameLink: "https://en.wikipedia.org/wiki/Doom_64",
@@ -52,6 +56,7 @@ export const data = [
     Genre: "Action/First-Person Shooter",
   },
   {
+    id: 5,
     Game: "Mischief Makers",
     Price: 39.99,
     GameLink: null,
@@ -65,6 +70,7 @@ export const data = [
     Genre: "Action/2D Platformer",
   },
   {
+    id: 6,
     Game: "Turok: Dinosaur Hunter",
     Price: 39.99,
     GameLink: null,
@@ -78,6 +84,7 @@ export const data = [
     Genre: "Action/First-Person Shooter",
   },
   {
+    id: 7,
     Game: "Mortal Kombat Mythologies: Sub-Zero",
     Price: 39.99,
     GameLink:
@@ -92,6 +99,7 @@ export const data = [
     Genre: "Action/Beat 'em up",
   },
   {
+    id: 8,
     Game: "International Superstar Soccer '98",
     Price: 29.99,
     GameLink: null,
@@ -105,6 +113,7 @@ export const data = [
     Genre: "Sports/Soccer",
   },
   {
+    id: 9,
     Game: "Top Gear Overdrive",
     Price: 39.99,
     GameLink: "https://en.wikipedia.org/wiki/Top_Gear_Overdrive",
@@ -118,6 +127,7 @@ export const data = [
     Genre: "Racing/Automobile",
   },
   {
+    id: 10,
     Game: "The Legend of Zelda: Ocarina of Time",
     Price: 49.99,
     GameLink:
