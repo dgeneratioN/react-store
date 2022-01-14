@@ -3,6 +3,7 @@ const About = () => {
     <>
       <section className="specs">
         <h2>CPU</h2>
+
         <p>
           The main processor is a <strong>NEC VR4300</strong> that runs at{" "}
           <strong>93.75 MHz</strong>, it&rsquo;s a binary-compatible version of

@@ -11,7 +11,7 @@ const Navbar = ({ carrinho }) => {
       <Link to="/">🏠Home</Link>
       <Link to="/about">🧻About</Link>
       <Link to="/store">💵Store</Link>
-      <Link to="/carto">🚗Carrinho ({qtd})</Link>
+      <Link to="/cart">🚗Carrinho ({qtd})</Link>
     </nav>
   );
 };

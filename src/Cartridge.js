@@ -1,17 +1,26 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Button, Card, Dropdown } from "react-bootstrap";
 
 const Cartridge = ({ Game, Price, id }) => {
   const image = "/assets/box-art/" + Game.replace(/:/g, " -") + ".png";
   return (
-    <article className="product">
-      <img src={image} alt={Game} />
-      <h4>{Game}</h4>
-      <p>${Price}</p>
-      <Link className="btn" to={`/details/${id}`}>
-        Learn More
-      </Link>
-    </article>
+    <Card style={{ width: "25rem" }}>
+      <Card.Img src={image} alt={Game} />
+      <Card.Title>{Game}</Card.Title>
+      <Card.Text>${Price}</Card.Text>
+      <Button variant="success" href={`/details/${id}`}>
+        Detalhes
+      </Button>
+      <Dropdown>
+        <Dropdown.Toggle>Mais</Dropdown.Toggle>
+
+        <Dropdown.Menu>
+          <Dropdown.Item href="#/action-1">Comprar</Dropdown.Item>
+          <Dropdown.Item href="#/action-2">Enfiar no tico</Dropdown.Item>
+          <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
+        </Dropdown.Menu>
+      </Dropdown>
+    </Card>
   );
 };
 

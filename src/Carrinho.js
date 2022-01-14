@@ -65,7 +65,7 @@ const Endereco = ({ rua, bairro, cidade, estado }) => {
     <>
       <p>
         Você está em{" "}
-        <b style={{ color: "red" }}>
+        <b>
           {rua}, {bairro}, {cidade}, {estado}{" "}
         </b>
         <br />e infelizmente a gente não entrega aí nesse fim de mundo
