@@ -1,16 +1,22 @@
 import React from "react";
 import Cartridge from "./Cartridge";
 import { data } from "./data";
+import { Container, Row, Col } from "react-bootstrap";
 
-const Store = () => {
+const Store = ({ addItem }) => {
   return (
     <>
-      <h2>Nintendo 64 Games</h2>
-      <section className="products">
-        {data.map((o) => {
-          return <Cartridge key={o.id} {...o} />;
-        })}
-      </section>
+      <Container>
+        <Row className="m-4">
+          {data.map((o) => {
+            return (
+              <Col className="m-2" key={o.id}>
+                <Cartridge addItem={addItem} {...o} />
+              </Col>
+            );
+          })}
+        </Row>
+      </Container>
     </>
   );
 };

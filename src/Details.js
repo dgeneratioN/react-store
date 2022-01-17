@@ -12,6 +12,7 @@ const Details = ({ addToCart }) => {
     Dev: "VALVe",
     Genre: "Porn",
     Price: -69.99,
+    Summary: "This a summary",
   });
   useEffect(() => {
     const mygame = data.find((o) => o.id === parseInt(id));
@@ -31,7 +32,9 @@ const Details = ({ addToCart }) => {
       <h3>{g.Year}</h3>
       <h4>{g.Dev}</h4>
       <h5>{g.Genre}</h5>
-      <p>${g.Price}</p>
+      <h6>${g.Price}</h6>
+      <p>{g.Summary}</p>
+
       <button
         className="btn"
         onClick={() => {

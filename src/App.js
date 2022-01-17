@@ -2,7 +2,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import React, { useEffect, useState } from "react";
 import Home from "./Home";
 import Store from "./Store";
-import Navbar from "./Navbar";
+import Navsup from "./Navbar";
 import Carrinho from "./Carrinho";
 import Details from "./Details";
 import About from "./About";
@@ -10,6 +10,7 @@ import About from "./About";
 function App() {
   const [carrinho, mudarCarrinho] = useState([]);
   const addItem = (item) => {
+    console.log("você comprou", item);
     if (carrinho.includes(item)) return;
     let novocarrinho = [...carrinho, item];
     localStorage.setItem("CARRINHO_LOCAL", JSON.stringify(novocarrinho));
@@ -24,14 +25,14 @@ function App() {
   return (
     <BrowserRouter>
       <div className="container">
-        <Navbar carrinho={carrinho} />
+        <Navsup carrinho={carrinho} />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
-          <Route path="/store" element={<Store />} />
+          <Route path="/store" element={<Store addItem={addItem} />} />
           <Route path="/cart" element={<Carrinho carrinho={carrinho} />} />
           <Route
-            path="/details/:id"
+            path="/store/:id"
             element={<Details addToCart={addItem} />}
           ></Route>
         </Routes>

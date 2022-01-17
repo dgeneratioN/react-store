@@ -1,4 +1,16 @@
-* {
-  background-color: #282c34;
+::-webkit-scrollbar {
+  display: none;
+}
+
+html,
+#root {
+  background-color: #212529;
   color: white;
+}
+body {
+  overflow-y: scroll;
+}
+
+.sombra {
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.8);
 }

@@ -1,25 +1,35 @@
 import React from "react";
-import { Button, Card, Dropdown } from "react-bootstrap";
+import { Button, ButtonGroup, Card } from "react-bootstrap";
 
-const Cartridge = ({ Game, Price, id }) => {
+//#ECECEC
+
+const Cartridge = ({ Game, Price, Genre, id, addItem }) => {
   const image = "/assets/box-art/" + Game.replace(/:/g, " -") + ".png";
   return (
-    <Card style={{ width: "25rem" }}>
-      <Card.Img src={image} alt={Game} />
-      <Card.Title>{Game}</Card.Title>
-      <Card.Text>${Price}</Card.Text>
-      <Button variant="success" href={`/details/${id}`}>
-        Detalhes
-      </Button>
-      <Dropdown>
-        <Dropdown.Toggle>Mais</Dropdown.Toggle>
+    <Card
+      bg="dark"
+      text="white"
+      className="border border-white border-4 rounded h-100 shadow"
+      style={{ width: "23rem" }}
+    >
+      <Card.Img variant="top" src={image} alt={Game} />
+      <Card.Title as="h2" className="mt-3 px-3">
+        {Game}
+      </Card.Title>
+      <Card.Body className="d-flex flex-column">
+        <div className="mb-auto"></div>
+        <div>
+          <Card.Subtitle className="text-muted">{Genre}</Card.Subtitle>
+          <Card.Text>${Price}</Card.Text>
+        </div>
 
-        <Dropdown.Menu>
-          <Dropdown.Item href="#/action-1">Comprar</Dropdown.Item>
-          <Dropdown.Item href="#/action-2">Enfiar no tico</Dropdown.Item>
-          <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
-        </Dropdown.Menu>
-      </Dropdown>
+        <ButtonGroup className="d-flex justify-content-end ms-auto">
+          <Button href={`/store/${id}`}>Detalhes</Button>
+          <Button variant="success" onClick={() => addItem(id)}>
+            <img src="cart.png" alt="cart" />
+          </Button>
+        </ButtonGroup>
+      </Card.Body>
     </Card>
   );
 };
