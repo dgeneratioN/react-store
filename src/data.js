@@ -12,6 +12,18 @@ export const data = [
     Platform: "the Nintendo 64",
     PlatformLink: "https://en.wikipedia.org/wiki/Nintendo_64",
     Genre: "Action/Strategy",
+    Screenshots: [
+      "ih7oeutz8ymfwaqnialg.jpg",
+      "x6zni77jlstj1k0sqtw0.jpg",
+      "n2vnsujwqrz5rd9bgruo.jpg",
+      "zxzz3utl8lv5ejp5d0a5.jpg",
+      "tojsvfn2cogmdumokljf.jpg",
+      "utnnzrnx9p79mwqg3nbi.jpg",
+      "yqmvb7lwadeopenvwros.jpg",
+      "tnfkqvdvrgrooufn3qvu.jpg",
+    ],
+    Summary:
+      "Blast Corps is a 1997 video game for the Nintendo 64 developed by Rare and published by Nintendo. Destroy a series of buildings or objects using a variety of unique demolition vehicles, in order to mainly clear a path for trucks carrying defective nuclear missiles.",
   },
   {
     id: 2,
@@ -26,10 +38,19 @@ export const data = [
     Platform: "the Nintendo 64",
     PlatformLink: "https://en.wikipedia.org/wiki/Nintendo_64",
     Genre: "Action/Adventure",
+    Screenshots: [
+      "w9zgw3qg5umv3jmu5tvg.jpg",
+      "lc6xoekfjhyoi0zpb08l.jpg",
+      "umkw4qgkmecgg2z0bqr7.jpg",
+      "pxez15dmknzndswc6hle.jpg",
+      "zeruwpny9qtjkz87riit.jpg",
+    ],
+    Summary:
+      "Castlevania is a side-scrolling platform action game. The player takes the role of Simon Belmont, who is able to jump and crack his whip directly in front of him. Power-ups can be obtained by defeating enemies or by whipping candles that appear in the castle. One such power-up increases the power and length of Simon's whip. Different weapons can be gathered which consume hearts when used, these hearts can also be collected from monsters and candles. Additionally, some walls will hide secrets such as the health-restorative turkey or the Double and Triple shot abilities for the weapons Simon has collected. At the end of each section of the castle is a boss, which must be defeated. Progression through the castle eventually leads to a confrontation with Count Dracula himself.",
   },
   {
     id: 3,
-    Game: "Goldeneye 007",
+    Game: "GoldenEye 007",
     Price: 49.99,
     GameLink: "https://en.wikipedia.org/wiki/GoldenEye_007_(1997_video_game)",
     Year: 1997,
@@ -40,9 +61,22 @@ export const data = [
     Platform: "the Nintendo 64",
     PlatformLink: "https://en.wikipedia.org/wiki/Nintendo_64",
     Genre: "Action/First-Person Shooter",
+    Screenshots: [
+      "vmpehvyu8kj60a8nw9jd.jpg",
+      "n0rvv6h4w2sn5yixlqln.jpg",
+      "pwb0o24pyhqnpz4r54a0.jpg",
+      "zcdl7fzspbg615ugbdfr.jpg",
+      "qia2pgnqystxj1pa3crp.jpg",
+      "sohjpqvpvxx8ce6xexs5.jpg",
+      "ksjmpuhjjmtyfhd7459r.jpg",
+      "grawgtcmjcnbta4vdlum.jpg",
+      "t1kgjejfqm6cughelyhe.jpg",
+    ],
+    Summary:
+      "GoldenEye 007 is a first-person shooter video game developed by Rare and based on the 1995 James Bond film GoldenEye. It was exclusively released for the Nintendo 64 video game console in August 1997.",
   },
   {
-    id: 4,
+    id: 666,
     Game: "Doom 64",
     Price: 34.99,
     GameLink: "https://en.wikipedia.org/wiki/Doom_64",
@@ -54,6 +88,15 @@ export const data = [
     Platform: "the Nintendo 64",
     PlatformLink: "https://en.wikipedia.org/wiki/Nintendo_64",
     Genre: "Action/First-Person Shooter",
+    Screenshots: [
+      "huarmvpiilimonuutx7a.jpg",
+      "so4ee56gpggy7rfzyz5j.jpg",
+      "faoozqwb3ixy3iyol0kk.jpg",
+      "u6jbogozio0udmkghuuo.jpg",
+      "sop338pyuaw0qwhrbfka.jpg",
+    ],
+    Summary:
+      "You killed the Demons once, they were all dead. Or so you thought... A single Demon Entity escaped detection. Systematically it altered decaying, dead carnage back into grotesque living tissue. The Demons have returned - stronger and more vicious than ever before. You mission is clear, there are no options: kill or be killed!",
   },
   {
     id: 5,
@@ -68,6 +111,20 @@ export const data = [
     Platform: "the Nintendo 64",
     PlatformLink: "https://en.wikipedia.org/wiki/Nintendo_64",
     Genre: "Action/2D Platformer",
+    Screenshots: [
+      "v3n3fcary8bgq4kzf0ln.jpg",
+      "rr2dnaypp9it89mjtkdr.jpg",
+      "tclpewh1y6c1dtaqzyqf.jpg",
+      "feii8q6xewl6wotpgrlj.jpg",
+      "z5aiffyta74avnhmapzx.jpg",
+      "ewfniljyrxwoc4qrf5qr.jpg",
+      "rxb8gq5eowsbn0zc0bmx.jpg",
+      "zf3rtdiipt5uvunxaipg.jpg",
+      "xaelaumqw8qhesusxn8b.jpg",
+      "dkckvrkifbdon0ohueya.jpg",
+    ],
+    Summary:
+      "Mischief Makers is a Single-Player Video Game for the Nintendo 64 that was released in the United States on October 1st, 1997. The protagonist is the Ultra-Intergalactic-Cybot G, Marina Liteyears. She must protect the clumsy and lighthearted Professor Theo from the evil emperor. While visiting Planet Clancer, the Professor is suddenly kidnapped by the empire, and thus starts our game. The player must travel to different worlds and utilize widely innovative and different modes of gameplay to save the professor. To get 100% completion one must collect a golden gem in each stage and achieve super fast completion ranks.",
   },
   {
     id: 6,
@@ -82,6 +139,20 @@ export const data = [
     Platform: "the Nintendo 64",
     PlatformLink: "https://en.wikipedia.org/wiki/Nintendo_64",
     Genre: "Action/First-Person Shooter",
+    Screenshots: [
+      "rzpdwlfu64amf2kmd9wh.jpg",
+      "ujdk2heomjyp13wgufix.jpg",
+      "q9bu3ljz0pymxjhft1u6.jpg",
+      "wywrcaclbp5ilwohufl6.jpg",
+      "ggrux3nc4ju3ectvsexo.jpg",
+      "rmlxrctnqsvwxscjs9rh.jpg",
+      "b8kbp3cutsjejwuyakj1.jpg",
+      "imbl1p4fklejj9eizhb8.jpg",
+      "il4fgzcxdcus9qx3dqop.jpg",
+      "al8ugahu8a8eud1roqis.jpg",
+    ],
+    Summary:
+      "A world where time has no meaning - and evil knows no bounds. Torn from a world long gone, the time traveling warrior Turok has found himself thrust into a savage land torn by conflict.",
   },
   {
     id: 7,
@@ -97,6 +168,15 @@ export const data = [
     Platform: "the Nintendo 64",
     PlatformLink: "https://en.wikipedia.org/wiki/Nintendo_64",
     Genre: "Action/Beat 'em up",
+    Screenshots: [
+      "sc81gy.jpg",
+      "sc81h0.jpg",
+      "sc81gz.jpg",
+      "sc81gx.jpg",
+      "sc81h1.jpg",
+    ],
+    Summary:
+      'Mortal Kombat Mythologies: Sub-Zero is a story-driven fighting game that casts you in the shoes of Sub-Zero, and chronicles a series of events that occurred prior to Mortal Kombat 1. It is the first Mortal Kombat game to feature side-scrolling gameplay.\n\nGameplay wise the game takes the Mortal Kombat familiar 2D fighting environment and turns it into a hybrid fighter/platformer game, where you must travel trough hazardous levels running and jumping around as well as fighting your way against both digitized and polygonal enemies. Sub-Zero\'s interface is the same as in every MK game, with the addition of a "use" and "turn around" buttons and additions such as an inventory, and a slight RPG twist in which you get exp. for defeating opponents, which translates into new techniques and moves to execute in the game.',
   },
   {
     id: 8,
@@ -111,6 +191,15 @@ export const data = [
     Platform: "the Nintendo 64",
     PlatformLink: "https://en.wikipedia.org/wiki/Nintendo_64",
     Genre: "Sports/Soccer",
+    Screenshots: [
+      "h1m37khnt605dkxqud4s.jpg",
+      "uojhvdfc0qwzlunbxl2j.jpg",
+      "lh7c4flz9lneeyathm4r.jpg",
+      "mvmwlwveqc0zkxdvmlne.jpg",
+      "gajft1wy5kyf7ptxqhiw.jpg",
+    ],
+    Summary:
+      "Do you have what it takes to be a superstar? Over 17,000 new motion captured animations! Team motivation, players and teams react to real game situations. Vertical camera angle allows you to see more of the pitch. 52 International teams and 9 unique soccer stadiums. Create your own players and trade existing ones. Infinite team formations and customizable strategies.",
   },
   {
     id: 9,
@@ -125,6 +214,9 @@ export const data = [
     Platform: "the Nintendo 64",
     PlatformLink: "https://en.wikipedia.org/wiki/Nintendo_64",
     Genre: "Racing/Automobile",
+    Screenshots: [],
+    Summary:
+      "In the main mode of play, the player races through six seasons, each season containing more races from more tracks, and with faster cars competing.\nAt the beginning of the race the player would start at the back of the grid, at the start line. Computer players at the front of the grid would often start a third of the way around the first lap. Players started with three charges of nitrous oxide, which were used to give the player a temporary speed boost.\nShortcuts were available on each track, and often the use of these decided the outcome of the races, particularly in later seasons.\nAt the end of each race the player would be presented with a screen to allow for various upgrades to their car, such as to acceleration and handling. The player was also able to change their car for a better (or worse) vehicle and could buy extra nitrous oxide to use in the next race.",
   },
   {
     id: 10,
@@ -141,5 +233,14 @@ export const data = [
     Platform: "the Nintendo 64",
     PlatformLink: "https://en.wikipedia.org/wiki/Nintendo_64",
     Genre: "Action/Adventure",
+    Screenshots: [
+      "hsycs23tftukuix2ftnc.jpg",
+      "btsnrjrewz8md0ztije8.jpg",
+      "id65ty6ulps9twunpb0r.jpg",
+      "or16ydorr1b35aq2f8mc.jpg",
+      "porwa0yo3cerskw2ggcb.jpg",
+    ],
+    Summary:
+      "A 3D reimagining of the core premise of The Legend of Zelda: A Link to the Past (1991), Ocarina of Time follows Link, the protagonist, as he picks up a sword and leaves behind his humble origins in order to trek across the land of Hyrule, venture into its treacherous dungeons and travel through time itself to fulfill his destiny as the Hero of Time by defeating his enemy Ganondorf and ridding Hyrule of evil.",
   },
 ];
